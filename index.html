@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="utility.css" />
+  </head>
+  <body>
+    <div class="container flex">
+      <div class="left">
+        <div class="home">
+          <div class="home-icons flex">
+            <div>
+              <img class="logo" src="img/spotify-logo.png" alt="logo" />
+            </div>
+            <div class="cross-icon">
+              <img
+                src="img/close_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"
+                alt=""
+              />
+            </div>
+          </div>
+          <ul>
+            <li><img src="img/home.svg" alt="home" />Home</li>
+            <li><img src="img/search.svg" alt="home" />Search</li>
+          </ul>
+        </div>
+
+        <div class="playlist-box background align border margin">
+          <div class="playlist-heading invert flex align">
+            <img src="img/playlist.svg" alt="home" />
+            <span>Your Library</span>
+          </div>
+
+          <!-- just in case  -->
+          <!-- <div class="playlist-container flex justify align">
+            <div class="text border">
+              <h5>Create your first playlist</h5>
+              <button>Create Playlist</button>
+            </div>
+          </div> -->
+          <div class="songslist flex">
+            <ul></ul>
+          </div>
+
+          <div class="footer">
+            <div><a href="">legal</a></div>
+            <div><a href="">privacy center</a></div>
+            <div><a href="">privacy policy</a></div>
+            <div><a href="">cookers</a></div>
+            <div><a href="">About Ads</a></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- right side div -->
+      <div class="right background border">
+        <div class="header flex border align">
+          <div class="nav flex align cursor">
+            <div class="hamburger invert">
+              <img src="img/hamburger (1).svg" alt="" />
+            </div>
+            <div class="left-arrow">
+              <img
+                src="img/chevron_left_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"
+                alt=""
+              />
+            </div>
+            <div class="right-arrow">
+              <img
+                src="img/chevron_right_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="buttons flex">
+            <button>Sign up</button>
+            <button>Log in</button>
+          </div>
+        </div>
+
+        <div class="spotifyPlaylist flex align">
+          <h2>Spotify Playlist</h2>
+          <a href="#">show all</a>
+        </div>
+
+        <div class="cardContainer flex align">
+
+       <!--    <div class="card" data-folder="englishsongs">
+            <div class="Playlist-background">
+              <div class="play-btn">
+                <img src="img/play-button-green-icon copy.svg" alt="home" />
+              </div>
+              <img src="img/playlist-photo-1.jpg" alt="" />
+              <h4>happy hits!</h4>
+              <p>Hits to boost your mood and fill you with...</p>
+            </div>
+          </div>
+
+          <div class="card" data-folder="telugusongs">
+            <div class="Playlist-background">
+              <div class="play-btn">
+                <img src="img/play-button-green-icon copy.svg" alt="home" />
+              </div>
+              <img src="img/playlist-photo-1.jpg" alt="" />
+              <h4>happy hits!</h4>
+              <p>Hits to boost your mood and fill you with...</p>
+            </div>
+          </div>
+
+          <div class="card" data-folder="hindisongs">
+            <div class="Playlist-background">
+              <div class="play-btn">
+                <img src="img/play-button-green-icon copy.svg" alt="home" />
+              </div>
+              <img src="img/playlist-photo-1.jpg" alt="" />
+              <h4>happy hits!</h4>
+              <p>Hits to boost your mood and fill you with...</p>
+            </div>
+          </div> -->
+          <!-- 
+          <div class="card">
+            <div class="Playlist-background">
+              <div class="play-btn">
+                <img src="img/play-button-green-icon copy.svg" alt="home" />
+              </div>
+              <img src="img/playlist-photo-1.jpg" alt="" />
+              <h4>happy hits!</h4>
+              <p>Hits to boost your mood and fill you with...</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="Playlist-background">
+              <div class="play-btn">
+                <img src="img/play-button-green-icon copy.svg" alt="home" />
+              </div>
+              <img src="img/playlist-photo-1.jpg" alt="" />
+              <h4>happy hits!</h4>
+              <p>Hits to boost your mood and fill you with...</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="Playlist-background">
+              <div class="play-btn">
+                <img src="img/play-button-green-icon copy.svg" alt="home" />
+              </div>
+              <img src="img/playlist-photo-1.jpg" alt="" />
+              <h4>happy hits!</h4>
+              <p>Hits to boost your mood and fill you with...</p>
+            </div> 
+          </div>-->
+          <!-- <div class="card">
+            <div class="Playlist-background">
+              <div class="play-btn">
+                <img src="img/play-button-green-icon copy.svg" alt="home" />
+              </div>
+              <img src="img/playlist-photo-1.jpg" alt="" />
+              <h4>happy hits!</h4>
+              <p>Hits to boost your mood and fill you with...</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="Playlist-background">
+              <div class="play-btn">
+                <img src="img/play-button-green-icon copy.svg" alt="home" />
+              </div>
+              <img src="img/playlist-photo-1.jpg" alt="" />
+              <h4>happy hits!</h4>
+              <p>Hits to boost your mood and fill you with...</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="Playlist-background">
+              <div class="play-btn">
+                <img src="img/play-button-green-icon copy.svg" alt="home" />
+              </div>
+              <img src="img/playlist-photo-1.jpg" alt="" />
+              <h4>happy hits!</h4>
+              <p>Hits to boost your mood and fill you with...</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="Playlist-background">
+              <div class="play-btn">
+                <img src="img/play-button-green-icon copy.svg" alt="home" />
+              </div>
+              <img src="img/playlist-photo-1.jpg" alt="" />
+              <h4>happy hits!</h4>
+              <p>Hits to boost your mood and fill you with...</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="Playlist-background">
+              <div class="play-btn">
+                <img src="img/play-button-green-icon copy.svg" alt="home" />
+              </div>
+              <img src="img/playlist-photo-1.jpg" alt="" />
+              <h4>happy hits!</h4>
+              <p>Hits to boost your mood and fill you with...</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="Playlist-background">
+              <div class="play-btn">
+                <img src="img/play-button-green-icon copy.svg" alt="home" />
+              </div>
+              <img src="img/playlist-photo-1.jpg" alt="" />
+              <h4>happy hits!</h4>
+              <p>Hits to boost your mood and fill you with...</p>
+            </div>
+          </div> -->
+          <!-- <div class="card">
+            <div class="Playlist-background">
+              <div class="play-btn">
+                <img src="img/play-button-green-icon copy.svg" alt="home" />
+              </div>
+              <img src="img/playlist-photo-1.jpg" alt="" />
+              <h4>happy hits!</h4>
+              <p>Hits to boost your mood and fill you with...</p>
+            </div>
+          </div> -->
+
+        </div>
+
+        <div class="playbar flex align">
+          <div class="songinfo"></div>
+          <div class="songbuttons invert flex justify align">
+            <img id="previousid" src="img/prevsong.svg" alt="home" />
+            <img id="playid" src="img/pause.svg" alt="home" />
+            <img id="nextid" src="img/nextsong.svg" alt="home" />
+          </div>
+
+          <div class="songtimeContainer flex">
+            <div class="volume-icon ">
+              <img
+                src="img/volume_up_32dp_E8EAED_FILL0_wght400_GRAD0_opsz40.svg"
+                alt=""
+              />
+            </div>
+            <div ><input type="range" class="custom-slider"/></div>
+            <!-- </div> -->
+            <div class="songtime"></div>
+          </div>
+
+          <div class="seekbar">
+            <div class="circle"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

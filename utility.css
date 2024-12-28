@@ -1,0 +1,28 @@
+.background{
+    background-color: #121212;
+}
+.flex{
+    display: flex;
+}
+.justify{
+    justify-content: center;
+}
+.align{
+    align-items: center;
+}
+.invert{
+    filter: invert(1);
+}
+.margin{
+    margin: 5px;
+}
+.border{
+    border-radius: 10px;
+}
+.textContent{
+    font-size: 12px;
+    font-weight: 600;
+}
+.cursor{
+    cursor: pointer;
+}
